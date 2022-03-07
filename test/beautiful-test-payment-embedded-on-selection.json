@@ -17,7 +17,7 @@
     },
     "capturePaymentUriTemplate": "https://epages-beyond-payment-app.herokuapp.com/payments/{paymentId}/capture",
     "captureWorkflow": "CAPTURE_ON_ORDER",
-    "disconnectUriTemplate": null,
+    "disconnectUriTemplate": "https://epages-beyond-payment-app.herokuapp.com/merchants/{shopId}/disconnect",
     "logos": [],
     "referralUriTemplate": null,
     "refund": "NO_REFUND",
