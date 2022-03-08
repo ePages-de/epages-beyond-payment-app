@@ -19,7 +19,6 @@ If you are using Ubuntu as operating system, follow those steps to install the d
 sudo apt update
 sudo apt install python3-pip make
 sudo pip3 install pipenv
-pipenv --three
 pipenv --three install --dev
 ```
 
