@@ -29,7 +29,7 @@ pipenv --three install --dev
 
 Before you can run the tests, you need to provide the client ID and client secret of the app:
 
-```
+```bash
 cp pytest.ini.template pytest.ini
 vim pytest.ini
 ```
