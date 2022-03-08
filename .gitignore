@@ -106,3 +106,6 @@ env.list
 
 .vscode/
 .idea/
+
+# Pytest env config, to not commit credentials
+pytest.ini

@@ -1,6 +1,7 @@
 # Testing
 test:
-	pipenv run pytest -vv -c env.list
+	# `cp pytest.ini.template pytest.ini` and configure env variables first!
+	pipenv run pytest -vv
 
 # Cleanup
 clean:
